@@ -13,8 +13,8 @@ from telegram.error import Unauthorized, BadRequest, TimedOut, NetworkError, Cha
 from telegram.ext import CommandHandler, Filters, MessageHandler, CallbackQueryHandler
 from telegram.ext.dispatcher import run_async, DispatcherHandlerStop, Dispatcher
 from telegram.utils.helpers import escape_markdown
-from lucifer import dispatcher, updater, TOKEN, WEBHOOK, SUDO_USERS, OWNER_ID, CERT_PATH, PORT, URL, LOGGER, \
-    ALLOW_EXCL, TOKEN, tbot
+from lucifer import dispatcher, updater, TOKEN, WEBHOOK, SUDO_USERS, OWNER_ID, CERT_PATH, PORT, URL, LOGGER,
+    ALLOW_EXCL, TOKEN
 from lucifer.modules import ALL_MODULES
 from lucifer.modules.helper_funcs.chat_status import is_user_admin
 from lucifer.modules.helper_funcs.misc import paginate_modules
