@@ -87,7 +87,7 @@ Keep in mind that your message <b>MUST</b> contain some text other than just a b
 
 jikan = Jikan()
 
-CoffeeHouseAPI = API(LYDIA_API)
+CoffeeHouseAPI = 
 api_client = LydiaAI(CoffeeHouseAPI)
 
 normiefont = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
