@@ -18,6 +18,7 @@ feedparser
 gtts
 alphabet_detector
 tabulate
+tgbot
 parsel
 youtube_dl
 hurry.filesize
